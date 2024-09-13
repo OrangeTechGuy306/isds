@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import Navbar from "@/comps/nav";
 import Image from "next/image";
