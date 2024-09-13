@@ -11,6 +11,8 @@ import { products } from "@/utils/products";
 import Link from 'next/link'
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 
+
+
 interface ProductType{
   id: number;
   name: string;
