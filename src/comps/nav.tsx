@@ -13,7 +13,11 @@ const Navbar = () => {
   const getTotalItems = ()=>{
     //  eslint-disable-next-line
     const cart = JSON.parse(localStorage.getItem("cart") as any)
-    setCount(cart.length)
+    if(cart){
+      setCount(cart.length)
+    }else{
+      setCount(0)
+    }
   }
 
   useEffect(()=>{
